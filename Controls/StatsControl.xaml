@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="DndBruschiEd.Controls.StatsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DndBruschiEd.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="256" d:DesignWidth="256">
+
+    <Border Grid.Row="0" Grid.Column="0" Background="#fcba03" CornerRadius="10" Width="auto">
+        <StackPanel>
+            <TextBlock x:Name="txtStatName" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="42" Foreground="White">
+                    Strength
+            </TextBlock>
+
+            <TextBlock x:Name="txtStatModifier" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="96" Foreground="White">
+                    +0
+            </TextBlock>
+
+            <TextBlock x:Name="txtStatValue" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="42" Foreground="White">
+                    20
+            </TextBlock>
+        </StackPanel>
+        
+    </Border>
+
+</UserControl>
